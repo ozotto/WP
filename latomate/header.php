@@ -22,6 +22,7 @@
 
 <body <?php body_class(); ?>>
 
+<div class="row navMenu">
 <div class="container">
 
 	<!-- Static navbar -->
@@ -76,7 +77,7 @@
 	</nav>
 
 </div> <!-- /container -->
-
+</div>
 <div class="container">
 
 <!--<div id="page" class="site">

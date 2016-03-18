@@ -119,7 +119,7 @@ $numberIndicator = $queryOtherPost->found_posts;
 			$urlImgDes = wp_get_attachment_url( get_post_thumbnail_id( $post->ID ) );
 		?>
 		<div class="col-md-8">
-			<h2><?php the_title();?></h2>
+			<h2 class="title-section"><?php the_title();?></h2>
 			<p class="lead"><?php the_content();?></p>
 		</div>
 		<div class="col-md-4">
@@ -130,7 +130,7 @@ $numberIndicator = $queryOtherPost->found_posts;
 		else :
 			?>
 			<div class="col-md-8">
-				<h2>This First Heading
+				<h2 class="title-section">This First Heading
 					<span class="text-muted">Will Catch Your Eye</span>
 				</h2>
 				<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
@@ -165,8 +165,8 @@ $numberIndicator = $queryOtherPost->found_posts;
 		?>
 				<div class="col-md-4">
 					<div class="thumbnail">
-						<?php if($isLink) : ?> <a href="<?php echo $linkMore; ?>"><h2><?php the_title();?></h2></a>
-						<?php else : ?> <h2><?php the_title();?></h2> <?php endif; ?>
+						<?php if($isLink) : ?> <a href="<?php echo $linkMore; ?>"><h2 class="title-section"><?php the_title();?></h2></a>
+						<?php else : ?> <h2 class="title-section" ><?php the_title();?></h2> <?php endif; ?>
 						<img src="<?php echo $urlImgModule; ?>">
 						<p><?php the_excerpt(); ?></p>
 						<?php
@@ -184,7 +184,7 @@ $numberIndicator = $queryOtherPost->found_posts;
 		?>
 		<div class="col-md-4">
 			<div class="thumbnail">
-				<h2>Heading</h2>
+				<h2 class="title-section">Heading</h2>
 				<img src="http://placehold.it/360x200">
 				<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
 				<p><a class="btn btn-default" href="#" role="button">Voir plus &raquo;</a></p>
@@ -192,7 +192,7 @@ $numberIndicator = $queryOtherPost->found_posts;
 		</div>
 		<div class="col-md-4">
 			<div class="thumbnail">
-				<h2>Heading</h2>
+				<h2 class="title-section">Heading</h2>
 				<img src="http://placehold.it/360x200">
 				<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
 				<p><a class="btn btn-default" href="#" role="button">Voir plus &raquo;</a></p>
@@ -200,7 +200,7 @@ $numberIndicator = $queryOtherPost->found_posts;
 		</div>
 		<div class="col-md-4">
 			<div class="thumbnail">
-				<h2>Heading</h2>
+				<h2 class="title-section">Heading</h2>
 				<img src="http://placehold.it/360x200">
 				<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
 				<p><a class="btn btn-default" href="#" role="button">Voir plus &raquo;</a></p>

@@ -1,0 +1,140 @@
+/*
+* Custom Nav Bar
+*/
+
+.row.navMenu {
+    background: #4DB121;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #D1230C
+}
+.navbar {
+    margin-bottom: -1px;
+    margin-top: -1px;
+}
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #15151E;
+    text-transform: uppercase;
+    font-size: large;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+    color: #2B2B3E;
+    background: #468D42;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color : #ffffff;
+    background: #D1230C;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: #2B2B3E;
+    background-color: #468D42;
+}
+
+@media (max-width: 767px){
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #000;
+    }
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #ddd;
+    background: #ddd;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #D1230C;
+}
+
+/*
+* Separator
+*/
+
+hr {
+    border-top: 1px dashed rgba(0, 0, 0, 0.5);
+}
+
+/*
+* Content
+*/
+
+.entry-title{
+    border-bottom: 3px double #D1230C;
+    padding-bottom: 10px;
+}
+
+h2.title-section{
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 3px double #D1230C;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: initial;
+}
+
+h2.title-section:hover, h2.title-section:focus {
+    text-decoration: none;
+}
+
+.thumbnail {
+    border: 0px;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+.btn-default {
+    color: #ffffff;
+    background-color: #D1230C;
+    border-color: #333;
+    padding: 12px;
+    font-size: large;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+    color: #ffffff;
+    background-color: #D1230C;
+    border-color: #333;
+    padding: 12px;
+    font-size: large;
+}
+
+/*
+* Footer
+*/
+
+.footer-distributed {
+    background-color: #4DB121;
+}
+
+.footer-distributed .footer-center i {
+    background-color: #D1230C;
+}
+
+.footer-distributed .footer-icons a {
+    background-color: #D1230C;
+}
+
+.footer-distributed .footer-center p {
+    color: #292c2f;
+}
+
+.footer-distributed .footer-center p a {
+    color: #292c2f;
+    text-decoration: none;
+}
+
+.footer-company-name a{
+    text-decoration: none;
+}
+
+.footer-company-name strong{
+    color: #ffffff;
+}
