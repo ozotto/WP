@@ -22,11 +22,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="rtl.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="rtl.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rtl.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20519836">
+            <state vertical-scroll-proportion="-6.25">
               <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.10259918">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -68,11 +78,11 @@
         <option value="$PROJECT_DIR$/inc/custom/custom-widget.php" />
         <option value="$PROJECT_DIR$/inc/custom/custom-widget-social.php" />
         <option value="$PROJECT_DIR$/footer.php" />
-        <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/css/custom.css" />
         <option value="$PROJECT_DIR$/css/default.css" />
         <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/rtl.css" />
+        <option value="$PROJECT_DIR$/style.css" />
       </list>
     </option>
   </component>
@@ -581,12 +591,12 @@
       <workItem from="1458134443060" duration="3683000" />
       <workItem from="1458148293049" duration="660000" />
       <workItem from="1458200638659" duration="15429000" />
-      <workItem from="1458286089834" duration="12356000" />
+      <workItem from="1458286089834" duration="12490000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32128000" />
+    <option name="totallyTimeSpent" value="32262000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="38" y="23" width="1440" height="873" extended-state="0" />
@@ -962,14 +972,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.876881">
-          <caret line="926" column="0" selection-start-line="926" selection-start-column="0" selection-end-line="926" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/inc/custom/custom-widget-social.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7742818">
@@ -980,8 +982,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rtl.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20519836">
+        <state vertical-scroll-proportion="-6.25">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10259918">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
